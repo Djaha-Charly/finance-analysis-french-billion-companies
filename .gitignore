@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# dbt
+target/
+logs/
+dbt_packages/
+
+# DuckDB
+*.duckdb
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+
+# fichiers temporaires
+*.tmp
+*.bak
+~$*

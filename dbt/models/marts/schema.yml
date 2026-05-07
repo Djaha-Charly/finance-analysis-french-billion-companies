@@ -1,0 +1,39 @@
+version: 2
+
+models:
+  - name: fact_finance
+    description: "Table centrale contenant les indicateurs financiers"
+
+    columns:
+      - name: siren
+        tests:
+          - not_null
+
+      - name: date_cloture_exercice
+        tests:
+          - not_null
+
+      - name: Chiffre_d_affaires
+        tests:
+          - not_null
+
+      - name: Resultat_net
+        description: "Résultat net"
+
+    tests:
+      - dbt_utils.expression_is_true:
+         arguments:
+           expression: "Chiffre_d_affaires > 0"
+
+      - dbt_utils.expression_is_true:
+         arguments:
+           expression: "marge_nette IS NULL OR marge_nette > -1"
+  - name: dim_entreprise
+    description: "Dimension entreprise contenant une ligne par siren"
+
+    columns:
+      - name: siren
+        description: "Identifiant unique de l'entreprise"
+        tests:
+          - not_null
+          - unique
