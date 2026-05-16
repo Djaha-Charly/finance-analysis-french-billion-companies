@@ -71,7 +71,6 @@ finance_analysis_dbt_duckdb_powerbi/
 │   └── 14_export_powerbi.py
 │
 └── README.md
-
 ## 📊 Dashboard Power BI
 
 Le rapport Power BI est structuré autour de 3 pages analytiques :
