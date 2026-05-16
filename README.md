@@ -84,7 +84,8 @@ croissance moyenne ;
 rentabilité moyenne ;
 répartition des entreprises ;
 secteurs les plus générateurs de CA.
-Aperçu
+Aperçu 
+![Vue d’ensemble](screenshots/vue_ensemble_synthese.png)
 
 2️⃣ Analyse des performances financières
 
@@ -95,6 +96,7 @@ entreprises en difficulté ;
 entreprises à forte croissance ;
 analyse comparative par taille d’entreprise.
 Aperçu
+![Analyse financière](screenshots/analyse_performances_financieres.png)
 
 3️⃣ Évolution financière
 
@@ -106,6 +108,7 @@ Analyse temporelle :
 évolution du nombre d’entreprises ;
 tendances de croissance.
 Aperçu
+![Évolution financière](screenshots/evolution_financiere.png)
 
 🧠 Principales analyses réalisées
 Analyse des entreprises milliardaires françaises
