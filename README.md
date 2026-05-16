@@ -33,6 +33,7 @@ dbt (staging → marts)
 Exports CSV optimisés
         ↓
 Power BI Dashboard
+
 🛠️ Technologies utilisées
 Outil	Utilisation
 Python	Nettoyage et transformations
@@ -41,6 +42,7 @@ dbt	Modélisation des données
 Power BI	Visualisation interactive
 SQL	Requêtes analytiques
 CSV / Parquet	Sources de données
+
 📂 Structure du projet
 finance_analysis_dbt_duckdb_powerbi/
 │
@@ -71,6 +73,8 @@ finance_analysis_dbt_duckdb_powerbi/
 │   └── 14_export_powerbi.py
 │
 └── README.md
+```
+---
 ## 📊 Dashboard Power BI
 
 Le rapport Power BI est structuré autour de 3 pages analytiques :
@@ -188,7 +192,6 @@ Dashboard interactif
 Ingénieur informatique | Data Analyst  
 Spécialisé en analyse de données, Business Intelligence et modélisation analytique.
 
-Compétences : SQL, Python, DuckDB, dbt, Power BI.
 
 Compétences :
 SQL
