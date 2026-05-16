@@ -71,43 +71,56 @@ finance_analysis_dbt_duckdb_powerbi/
 │   └── 14_export_powerbi.py
 │
 └── README.md
-📊 Dashboard Power BI
+
+## 📊 Dashboard Power BI
 
 Le rapport Power BI est structuré autour de 3 pages analytiques :
 
-1️⃣ Vue d’ensemble des performances financières
+---
+
+### 1️⃣ Vue d’ensemble des performances financières
 
 Analyse globale :
 
-chiffre d’affaires total ;
-croissance moyenne ;
-rentabilité moyenne ;
-répartition des entreprises ;
-secteurs les plus générateurs de CA.
-Aperçu 
+- chiffre d’affaires total ;
+- croissance moyenne ;
+- rentabilité moyenne ;
+- répartition des entreprises ;
+- secteurs les plus générateurs de CA.
+
+#### Aperçu
+
 ![Vue d’ensemble](screenshots/vue_ensemble_synthese.png)
 
-2️⃣ Analyse des performances financières
+---
+
+### 2️⃣ Analyse des performances financières
 
 Analyse :
 
-relation entre chiffre d’affaires et rentabilité ;
-entreprises en difficulté ;
-entreprises à forte croissance ;
-analyse comparative par taille d’entreprise.
-Aperçu
+- relation entre chiffre d’affaires et rentabilité ;
+- entreprises en difficulté ;
+- entreprises à forte croissance ;
+- analyse comparative par taille d’entreprise.
+
+#### Aperçu
+
 ![Analyse financière](screenshots/analyse_performances_financieres.png)
 
-3️⃣ Évolution financière
+---
+
+### 3️⃣ Évolution financière
 
 Analyse temporelle :
 
-évolution du chiffre d’affaires ;
-évolution de la marge nette ;
-évolution du résultat net ;
-évolution du nombre d’entreprises ;
-tendances de croissance.
-Aperçu
+- évolution du chiffre d’affaires ;
+- évolution de la marge nette ;
+- évolution du résultat net ;
+- évolution du nombre d’entreprises ;
+- tendances de croissance.
+
+#### Aperçu
+
 ![Évolution financière](screenshots/evolution_financiere.png)
 
 🧠 Principales analyses réalisées
